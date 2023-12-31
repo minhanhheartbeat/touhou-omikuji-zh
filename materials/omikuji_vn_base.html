@@ -23,7 +23,6 @@
       border-width: thin;
       box-shadow: 10px 10px rgba(0, 0, 0, 0.4);
     }
-
     noscript div {
       text-align: center
     }
@@ -33,52 +32,45 @@
       background-image: url('');
     }
   </style>
+  <style>
+    .button {
+  position: absolute;
+  left: 5px;
+  bottom: 1px;
+  background-color: #ffffff;
+  border: none;
+  color: #314de4;
+  padding: 16px 32px;
+  text-align: center;
+  font-size: 16px;
+  margin: 4px 2px;
+  opacity: 0.6;
+  transition: 0.3s;
+  display: inline-block;
+  text-decoration: none;
+  cursor: pointer;
+  border: 2px solid #f73c2f;
+  border-radius: 4px;
+  font-size: 15px;
+  font-family: 'Brush Script MT', cursive;
+}
+.button:hover {opacity: 1}
+  </style>
   <noscript>
     <div>
       JavaScript is required to view this page.
       <br/> Yêu cầu có Javascript để xem trang này.
     </div>
   </noscript>
-  <script>
-    window.onload = function () {
-      console.info('Cảm ơn bạn đã ghé thăm trang web nho nhỏ của mình ☯️.')
-      console.info('Gõ lệnh "reset()" (không có dấu nháy kép) để treo lá xăm lên cây thông 🌲, sau đó bạn có thể rút lá xăm mới 📄.')
-      console.groupCollapsed();
-      console.info('Hoặc nếu bạn là một người nghiêm túc thì bạn có thể xóa Cookie cũng được ạ 💻.')
-      console.groupEnd();
-      window.reset = function () {
-        setCookie('random_omikuji', '', -1);
-      }
-      var idx = parseInt(getCookie('random_omikuji'));
-      if (isNaN(idx)) {
-        idx = getRndn(5);
-        setCookie('random_omikuji', idx, 1000 * 60 * 60 * 24);
-      }
-      target.style.display = 'block';
-      target.style.backgroundPosition = 'top left -' + (350 * idx) + 'px';
-    }
-  </script>
 </head>
-
 <body>
   <div id='target'></div>
+  
+  <center>
+  <button class ="button" onclick="clickRndn()">Click here to try again !</button>
+  </center>
+  
   <script>
-    function setCookie(cname, cvalue, exdays) {
-      var d = new Date();
-      d.setTime(d.getTime() + (exdays * 24 * 60 * 60 * 1000));
-      var expires = "expires=" + d.toUTCString();
-      document.cookie = cname + "=" + cvalue + "; " + expires;
-    }
-    function getCookie(cname) {
-      var name = cname + "=";
-      var ca = document.cookie.split(';');
-      for (var i = 0; i < ca.length; i++) {
-        var c = ca[i];
-        while (c.charAt(0) == ' ') c = c.substring(1);
-        if (c.indexOf(name) == 0) return c.substring(name.length, c.length);
-      }
-      return "";
-    }
     function getRndn(to) {
       if (window.crypto != null && window.crypto.getRandomValues != null) {
         var array = new Uint8Array(1);
@@ -86,8 +78,14 @@
       }
       else {
         return Math.floor(Math.random() * (to + 1));
-      }
     }
+    }
+    function clickRndn() {
+      idx = getRndn(5);
+      target.style.display = 'block';
+      target.style.backgroundPosition = 'top left -' + (350 * idx) + 'px';
+    }
+    window.onload = clickRndn;
   </script>
 </body>
 
