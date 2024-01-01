@@ -70,6 +70,14 @@
   <a href="https://meigyoku-thmn.github.io/touhou-omikuji/">VI</a>
   <a class="active" href="https://minhanhheartbeat.github.io/touhou-omikuji-zh/">ZH</a>
 </div>
+  <style>
+    h1 { 
+      text-shadow: 0 0 7px #FFFFFF, 0 0 7px #FFFFFF; 
+      position: absolute;
+      left: 400px;
+      top: 20px;
+        } 
+    </style>
   
   <style>
     .button {
@@ -104,9 +112,8 @@
 </head>
 <body>
   <div id='target'></div>
-  
-  <center>
-  <button class ="button" onclick="clickRndn()">Click here to try again !</button>
+  <h1 style="font-family: 'Brush Script MT', cursive;">Congratulation! You got.....</h1>
+  <button class ="button" onclick="clickRndn()">點擊此處重試</button>
   </center>
   
   <script>
@@ -125,6 +132,7 @@
       target.style.backgroundPosition = 'top left -' + (350 * idx) + 'px';
     }
     window.onload = clickRndn;
+  </script>
   </script>
 </body>
 
