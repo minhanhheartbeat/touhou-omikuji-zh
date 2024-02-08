@@ -5,7 +5,7 @@ From Reitaisai 15 - Touhou Omikuji
 
 =================================
 
-Dành cho những ai không biết, đây là trang Open Source của trang web Touhou Omikuji EN được tạo bởi nguyetkhanhminh bằng Github Page, là phiên bản sửa lại từ trang gốc của anh Meigyoku Thmn với tính năng refresh lại lá Omikuji mà không cần xóa cookie như cũ, kèm theo bản dịch Tiếng Trung (ZH) được dịch bởi Oce Saoemkonoisom bên cạnh bản sửa lại Tiếng Anh và Tiếng Việt bởi nguyetkhanhminh. Trang web cũng sử dụng tác phẩm vẽ của họa sĩ Moyazo (もや造@例大祭あ03ab) làm ảnh nền. Tất cả các tài nguyên sử dụng bởi các trang web được sử dụng lại từ bản gốc Tiếng Anh của Touhou Patch Center, là sản phẩm của Team Shanghai Alice, sưu tầm từ sự kiện Reitaisai lần thứ 15. Đối với vấn đề liên lạc người điều hành trang web này, vui lòng gửi thư vào địa chỉ email: deomom129@gmail.com
+Dành cho những ai không biết, đây là trang Open Source của trang web Touhou Omikuji ZH được tạo bởi nguyetkhanhminh bằng Github Page, là phiên bản sửa lại từ trang gốc của anh Meigyoku Thmn với tính năng refresh lại lá Omikuji mà không cần xóa cookie như cũ, kèm theo bản dịch Tiếng Trung (ZH) được dịch bởi Oce Saoemkonoisom bên cạnh bản sửa lại Tiếng Anh và Tiếng Việt bởi nguyetkhanhminh. Trang web cũng sử dụng tác phẩm vẽ của họa sĩ Moyazo (もや造@例大祭あ03ab) làm ảnh nền. Tất cả các tài nguyên sử dụng bởi các trang web được sử dụng lại từ bản gốc Tiếng Anh của Touhou Patch Center, là sản phẩm của Team Shanghai Alice, sưu tầm từ sự kiện Reitaisai lần thứ 15. Đối với vấn đề liên lạc người điều hành trang web này, vui lòng gửi thư vào địa chỉ email: deomom129@gmail.com
 
 Các liên kết ngoài ghi công:
 
