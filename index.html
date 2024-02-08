@@ -3,14 +3,21 @@
 
 <head>
   <meta charset='utf-8'>
-  <title>Touhou Omikuji</title>
+  <title>Touhou Omikuji ZH</title>
   <style>
     body {
-      background-image: url('https://i.imgur.com/9rE3cYr.jpg');
+      background-image: url('https://i.imgur.com/MfvLiXB.png');
       height: 100%; 
-      background-repeat: no-repeat;
-      background-position: center;
+      background-repeat: no-repeat center center fixed;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
       background-size: cover;
+    }
+    
+      @media screen and (min-width: 400px) {
+  body {
+    background-position: center;
     }
 
     #target {
@@ -70,7 +77,7 @@
   <a href="https://meigyoku-thmn.github.io/touhou-omikuji/">VI</a>
   <a class="active" href="https://minhanhheartbeat.github.io/touhou-omikuji-zh/">ZH</a>
   <a href="https://github.com/minhanhheartbeat/touhou-omikuji-zh/blob/master/README.md">...</a>
-  <a href="https://seiga.nicovideo.jp/seiga/im2754936">©ansi</a>
+  <a href="https://www.pixiv.net/en/artworks/62012800">©Moyazo</a>
 </div>
   <style>
     h1 { 
@@ -113,10 +120,9 @@
   </noscript>
 </head>
 <body>
-  <div id='target'></div>
-  <h1 style="font-family: 'Brush Script MT', cursive;">恭喜！你得到了...</h1>
+   <h1 style="font-family: 'Brush Script MT', cursive; text-align: center;">恭喜！你得到了...</h1>
+  <div id='target' style="display: block; background-position: left -700px top;"></div>
   <button class ="button" onclick="clickRndn()">點擊此處重試 !</button>
-  </center>
   
   <script>
     function getRndn(to) {
