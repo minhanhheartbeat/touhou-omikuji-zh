@@ -14,7 +14,14 @@
       -o-background-size: cover;
       background-size: cover;
     }
-    
+
+          @media screen and (max-height: 800px) {
+  body {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    }
+            
 h1 {
   text-shadow: 0 0 8px #FFFFFF;
 }
@@ -103,19 +110,19 @@ h1 {
 }
 .button:hover {opacity: 1}
 
-    @media screen and (min-width: 400px) {
+    @media screen and (min-width: 800px) {
   button {
   position: fixed;
-  width: 170px;
-  height: 90px;
-  left: 5px;
-  bottom: 0px;
+  width: 150px;
+  height: 100px;
+  left: 10px;
+  bottom: 5px;
   background-color: #ffffff;
   border: none;
   color: #314de4;
   padding: 16px 32px;
   text-align: center;
-  font-size: 16px;
+  font-size: 24px;
   margin: 4px 2px;
   opacity: 0.6;
   transition: 0.3s;
