@@ -29,7 +29,7 @@ https://en.touhouwiki.net/wiki/Miscellaneous_illustrations_by_ZUN#Omikuji
 
 =================================
 
-For those who don't know, this is the Open Source page of Touhou Omikuji EN website created by nguyetkhanhminh using Github Page, a revised version of the original page made by Meigyoku Thmn with the feature to refresh Omikuji horoscope without deleting cookies as before, accompanied by a Chinese translation (ZH) by Oce Saoemkonoisom alongside the fixed English and Vietnamese translations made by nguyetkhanhminh. The website also uses Moyazo's artwork (もや造@例大祭あ03ab) as background images. All resources used by all of these kind of website are reused from the original English version of Touhou Patch Center, which is the product of Team Shanghai Alice, collected from the 15th Reitaisai event. For contact issues to who operates this website, please send an email to: deomom129@gmail.com
+For those who don't know, this is the Open Source page of Touhou Omikuji ZH website created by nguyetkhanhminh using Github Page, a revised version of the original page made by Meigyoku Thmn with the feature to refresh Omikuji horoscope without deleting cookies as before, accompanied by a Chinese translation (ZH) by Oce Saoemkonoisom alongside the fixed English and Vietnamese translations made by nguyetkhanhminh. The website also uses Moyazo's artwork (もや造@例大祭あ03ab) as background images. All resources used by all of these kind of website are reused from the original English version of Touhou Patch Center, which is the product of Team Shanghai Alice, collected from the 15th Reitaisai event. For contact issues to who operates this website, please send an email to: deomom129@gmail.com
 
 External links attribution:
 
@@ -52,7 +52,7 @@ https://en.touhouwiki.net/wiki/Miscellaneous_illustrations_by_ZUN#Omikuji
 
 =================================
 
-对于那些不知道的人，这是 nguyetkhanhminh 使用 Github Page 创建的 东方 Omikuji EN 网站的开源页面，是由 Meigyoku Thmn 制作的原始页面的修订版本，具有刷新Omikuji 星座运势而不删除的功能像以前一样，附有 Oce Saoemkonoisom 的中文翻译（ZH）以及 nguyetkhanhminh 制作的固定英语和越南语翻译。该网站还使用 Moyazo 的艺术作品（もや造@例大祭あ03ab）作为背景图像。所有此类网站所使用的所有资源均重复使用了《东方补丁中心》的英文原版，该补丁中心是上海爱丽丝团队的产品，从第15th Reitaisai活动中收集而来。对于本网站运营者的联系问题，请发送电子邮件至：deomom129@gmail.com
+对于那些不知道的人，这是 nguyetkhanhminh 使用 Github Page 创建的 东方 Omikuji ZH 网站的开源页面，是由 Meigyoku Thmn 制作的原始页面的修订版本，具有刷新Omikuji 星座运势而不删除的功能像以前一样，附有 Oce Saoemkonoisom 的中文翻译（ZH）以及 nguyetkhanhminh 制作的固定英语和越南语翻译。该网站还使用 Moyazo 的艺术作品（もや造@例大祭あ03ab）作为背景图像。所有此类网站所使用的所有资源均重复使用了《东方补丁中心》的英文原版，该补丁中心是上海爱丽丝团队的产品，从第15th Reitaisai活动中收集而来。对于本网站运营者的联系问题，请发送电子邮件至：deomom129@gmail.com
 
 外部链接归属：
 
