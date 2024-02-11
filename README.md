@@ -3,6 +3,8 @@ From Reitaisai 15 - Touhou Omikuji
 
 visit the website at: https://minhanhheartbeat.github.io/touhou-omikuji-zh/
 
+our facebook page: https://www.facebook.com/miyoi.tea.house
+
 [ VI | EN | ZH ]
 
 =================================
